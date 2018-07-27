@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render no expenses, 1 hidden 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header_title"
+    >
+      Viewing 
+      <span>
+        0
+      </span>
+       
+      expenses
+       totalling 
+      <span>
+        £
+        0.00
+      </span>
+    </h1>
+    <h2
+      className="page-header_title"
+    >
+      Currently 
+      <span>
+        1
+      </span>
+       
+      expense
+       
+      is
+       hidden due to the current filter
+    </h2>
+    <div
+      className="page-header_actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render summary with 1 expense, none hidden 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header_title"
+    >
+      Viewing 
+      <span>
+        1
+      </span>
+       
+      expense
+       totalling 
+      <span>
+        £
+        2.30
+      </span>
+    </h1>
+    <h2
+      className="page-header_title"
+    >
+      There are no hidden expenses
+    </h2>
+    <div
+      className="page-header_actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render summary with many expenses, some hidden 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header_title"
+    >
+      Viewing 
+      <span>
+        5
+      </span>
+       
+      expenses
+       totalling 
+      <span>
+        £
+        12.40
+      </span>
+    </h1>
+    <h2
+      className="page-header_title"
+    >
+      Currently 
+      <span>
+        2
+      </span>
+       
+      expenses
+       
+      are
+       hidden due to the current filter
+    </h2>
+    <div
+      className="page-header_actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
+</div>
+`;

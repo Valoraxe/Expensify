@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correct 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="header_content"
+    >
+      <Link
+        className="header_title"
+        exact={true}
+        replace={false}
+        to="/"
+      >
+        <h1>
+          Expensify
+        </h1>
+      </Link>
+      <button
+        className="button button-link"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+</header>
+`;
