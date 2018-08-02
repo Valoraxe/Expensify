@@ -65,3 +65,12 @@ test("stop edit new expense", () => {
   const state = ExpensesReducer(expenses, action)
   expect(state).toEqual(state)
 })
+
+test("should set expenses", () => {
+  const action = {
+    type: "SET_EXPENSE",
+    expenses: expenses
+  }
+  const state = ExpensesReducer(expenses, action)
+  expect(state).toEqual(expenses)
+})

@@ -12,9 +12,8 @@ exports[`Should render correct 1`] = `
     >
       <Link
         className="header_title"
-        exact={true}
         replace={false}
-        to="/"
+        to="/dashboard"
       >
         <h1>
           Expensify
@@ -22,6 +21,7 @@ exports[`Should render correct 1`] = `
       </Link>
       <button
         className="button button-link"
+        onClick={[Function]}
       >
         Logout
       </button>
